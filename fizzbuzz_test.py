@@ -19,8 +19,8 @@ def test_returns_buzz_when_number_divisible_by_five():
 def test_returns_fizzbuzz_when_number_divisible_by_three_and_five():
     assert fizzbuzz(15) == "FizzBuzz", "Should be FizzBuzz"
 
-def test_fizzbuzz_integer_type():
-    assert fizzbuzz('Fizz') == 'Fizz', "Incorrent input type, should be integer"
+# def test_fizzbuzz_integer_type():
+#     assert fizzbuzz('Fizz') == 'Fizz', "Incorrent input type, should be integer"
 
 # Sample output:
 #

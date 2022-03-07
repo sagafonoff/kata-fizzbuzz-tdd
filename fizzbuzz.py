@@ -1,12 +1,18 @@
 def fizzbuzz(number):
-    if type(number) != int:
-        raise TypeError("Incorrect input type, should be integer")
+    # if type(number) != int:
+    #     raise TypeError("Incorrect input type, should be integer")
     if number % 15 == 0:
-        msg = "FizzBuzz"
+        answer = "FizzBuzz"
     elif number % 3 == 0:
-        msg = "Fizz"
+        answer = "Fizz"
     elif number % 5 == 0:
-        msg = "Buzz"
-    else: msg = number
+        answer = "Buzz"
+    else: answer = number
     
-    return msg
+    if type(answer) != int:
+        result = answer
+    else:
+        result = number
+    
+    return result
+    # return msg
