@@ -13,6 +13,11 @@ def test_fizzbuzz_returns_number():
 def test_returns_fizz_when_number_divisible_by_three():
     assert fizzbuzz(3) == "Fizz", "Should be Fizz"
 
+def test_returns_buzz_when_number_divisible_by_five():
+    assert fizzbuzz(5) == "Buzz", "Should be Buzz"
+    
+def test_returns_fizzbuzz_when_number_divisible_by_three_and_five():
+    assert fizzbuzz(15) == "FizzBuzz", "Should be FizzBuzz"
 # Sample output:
 #
 # 1
