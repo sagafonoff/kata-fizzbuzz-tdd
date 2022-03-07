@@ -8,11 +8,8 @@ def fizzbuzz(number):
     elif number % 5 == 0:
         answer = "Buzz"
     else: answer = number
-    
-    if type(answer) != int:
-        result = answer
-    else:
-        result = number
+        
+    result = answer if type(answer) != int else number
     
     return result
     # return msg
